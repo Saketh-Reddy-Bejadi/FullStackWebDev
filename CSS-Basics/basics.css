@@ -33,7 +33,7 @@
 
 
 /* for element selector */
-/* div{
+div{
     border: 3px red solid;
 }
 h1{
@@ -42,20 +42,6 @@ h1{
 }
 p{
     color: red;
-} */
+}
 
 
-/* Padding and Margin */
-.parent{
-    background-color: grey;
-    height: 500px;
-    width: 500px;
-    margin: 100px auto;
-}
-.Margin{
-    background-color: black;
-    height: 300px;
-    width: 300px;
-    margin: 10px;
-    
-}
