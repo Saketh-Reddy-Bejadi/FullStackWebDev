@@ -1,13 +1,29 @@
-console.log("Hello World");
-var a=-1;
-var b=20;
-if (a>0){
-    console.log("a is positive")
-}
-if (a<0){
-    console.log("a negative")
-}
-if (a<=0) {
-    console.log("a is negative or zero")
-}
+// Practice Question-1
+// i
+let age=23;
+age+2;
+console.log(age);
+
+// ii
+let telugu=80;
+let hindi=90;
+let maths=100;
+let avg=(telugu+hindi+maths)/3;
+console.log("average:",avg)
+
+
+// Practice Question-2
+// i
+let num=5;
+let newNum=num++;
+newNum=++num;
+console.log(num);
+console.log(newNum);
+
+
+// Example
+let name="Java"+" "+"Script";
+console.log(name);
+
+
 
