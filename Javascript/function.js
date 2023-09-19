@@ -21,9 +21,20 @@ console.log(num);
 console.log(newNum);
 
 
-// Example
-let name="Java"+" "+"Script";
-console.log(name);
 
+// Practice Question
+let light="Green";
 
+if(light=="Red") {
+    console.log("Stop");
+}
+if(light=="Yellow") {
+    console.log("Slow Down");
+}
+if(light=="Green"){
+    console.log("GO!")
+}
+else{
+    console.log("Invalid value");
+}
 
