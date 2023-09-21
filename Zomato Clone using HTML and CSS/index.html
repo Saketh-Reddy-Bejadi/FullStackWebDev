@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zomato Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <img src="assets/logo.png" alt="">
+        <nav class="navbar">
+            <div class="navbarLogodiv">
+                <img class="navbarLogo" src="assets/logo.png" alt="brand_logo">
+            </div>
+            <div class="navItems">
+                <button class="navbarOrderButton">Order Food</button>
+            </div>
         </nav>
     </header>
+    <section class="main">
+        <div class="parent">
+            <div class="mainTextDiv">
+                <h1>Order food from favourite restaurants near you.</h1>
+            </div>
+            <div class="mainImageDiv">
+                <img class="mainImage" src="assets/hero.jpg" alt="">
+                <img class="pattern" src="assets/svg/herobgpattren.svg" alt="">
+                <img  class="shape" src="assets/svg/heroShape.svg" alt="">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
