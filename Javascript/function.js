@@ -123,3 +123,49 @@ let array=[10,20,30,40,50];
 const narray=array.filter((e)=>e>20);
 console.log(array);
 console.log(narray);
+
+// simple function
+function print(name){
+    if (name){
+        console.log(`hello ${name}`);
+    }
+    else{
+        console.log(`hello world`);
+    }
+}
+print("saketh");
+
+
+// default parameter
+function greet(nam="world"){
+    console.log(`hello ${nam}`);
+}
+greet("saketh");
+
+
+
+
+// line break ES6
+console.log("Apple\nBanana\nMango\nGrapes\nOrange");
+console.log(`
+    Apple
+    Banana
+Orange
+Grapes
+        Mango
+`);
+
+
+// scoping
+function outer(){
+    let n1="xyz";
+    let n2="abc";
+    function inner(){
+        let n1="XYZ";
+        let n2="ABC";
+        console.log(`${n1,n2}`);
+    }
+    inner();
+    console.log(`${n1,n2}`);
+}
+outer();
