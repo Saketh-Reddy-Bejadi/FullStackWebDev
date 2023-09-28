@@ -1,5 +1,5 @@
 const taskContainer=document.querySelector(".task__container");
-console.log(taskContainer);
+// console.log(taskContainer);
 const saveChanges=() =>{
     const taskData= {
         id:`${Date.now()}`,
@@ -8,9 +8,10 @@ const saveChanges=() =>{
         taskType:document.getElementById("TaskType").value,
         taskDescription:document.getElementById("TaskDescription").value,
     }
-    console.log(taskData);
-    const newCARD=`
-    <div class="column col-sm-12 col-md-6 col-lg-4">
+    // console.log(taskData);
+    if (taskData.id,taskData.imgURL,taskData.taskTitle,taskData.taskType,taskData.taskDescription) {
+        const newCARD=`
+    <div class="column col-sm-12 col-md-6 col-lg-4 mt-2 mb-4">
     <div class="card">
       <div class="card-header d-flex gap-2 justify-content-end">
         <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pencil"></i></button>
@@ -26,5 +27,7 @@ const saveChanges=() =>{
   </div>
     `;
     taskContainer.insertAdjacentHTML("beforeend",newCARD);
+    }
+    
 };
 
