@@ -4,5 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #ebf2ff;
+}
+.plus{
+    font-weight: bolder;
 }
