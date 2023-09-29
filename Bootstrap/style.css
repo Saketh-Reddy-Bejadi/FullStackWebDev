@@ -6,4 +6,57 @@
 body{
     background-color: #ebf2ff;
 }
+.cardbody1{
+    /* width:261px;
+    height: 174px;  */
+    overflow: hidden;
+}
+.card-body img{
+    max-width:100%;
+    height:auto;
+}
 
+/* .card{
+    width: 295px;
+    height: 389px;
+} 
+@media (max-width: 992px) { 
+    .card{
+    width: 336px;
+    height: 416px;
+} 
+.cardbody1{
+    width:302px;
+    height: 201px; 
+    overflow: hidden;
+}
+}
+
+
+
+
+ @media (max-width: 768px) { 
+    .card{
+        width: 516px;
+        height: 536px;
+    }
+    .cardbody1{
+        width:482px;
+        height: 321px; 
+        overflow: hidden;
+    }
+  }
+  
+
+   @media (max-width: 576px) { 
+    .card{
+        width: 516px;
+        height: 536px;
+    }
+    .cardbody1{
+        width:482px;
+        height: 321px; 
+        overflow: hidden;
+    }
+    }
+ */
