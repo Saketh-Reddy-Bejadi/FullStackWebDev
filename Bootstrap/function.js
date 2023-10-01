@@ -40,7 +40,7 @@ const saveChanges=() =>{
         taskDescription:document.getElementById("TaskDescription").value,
     }
     // console.log(taskData);
-    if (taskData.id,taskData.imgURL ||taskData.imgURL==NA,taskData.taskTitle,taskData.taskType,taskData.taskDescription) {
+    if (taskData.id,taskData.imgURL,taskData.taskTitle,taskData.taskType,taskData.taskDescription) {
   //       const newCARD=`
   //   <div class="column col-sm-12 col-md-6 col-lg-4 mt-2 mb-2">
   //   <div class="card">
