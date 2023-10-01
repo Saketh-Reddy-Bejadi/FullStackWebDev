@@ -1,5 +1,6 @@
 const taskContainer=document.querySelector(".task__container");
 // console.log(taskContainer);
+const globalStorage=[];
 const saveChanges=() =>{
     const taskData= {
         id:`${Date.now()}`,
@@ -11,7 +12,7 @@ const saveChanges=() =>{
     // console.log(taskData);
     if (taskData.id,taskData.imgURL,taskData.taskTitle,taskData.taskType,taskData.taskDescription) {
         const newCARD=`
-    <div class="column col-sm-12 col-md-6 col-lg-4 mt-2 mb-4">
+    <div class="column col-sm-12 col-md-6 col-lg-4 mt-2 mb-2">
     <div class="card">
       <div class="card-header d-flex gap-2 justify-content-end">
         <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pencil"></i></button>
@@ -28,6 +29,8 @@ const saveChanges=() =>{
     `;
     taskContainer.insertAdjacentHTML("beforeend",newCARD);
     }
+    globalStorage.push(taskData);
+    localStorage.setItem("zxcvbnm",globalStorage)
     
 };
 
