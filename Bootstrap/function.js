@@ -69,3 +69,30 @@ const saveChanges=() =>{
     
 };
 
+
+
+
+
+
+// <form action="#" id="myForm">
+// <div class="modal-body">
+//   <div class="mb-3">
+//     <label for="fileOrURL" class="form-label" onclick="">File Upload</label>
+//     <label for="#" class="form-label">or</label>
+//     <label for="fileOrURL" class="form-label">URL</label>
+//     <input type="text" class="form-control" name="fileOrURL" id="fileOrURL" placeholder="http://image.com/image.jpg">
+//     <input type="file" class="form-control" name="fileUpload" id="fileUpload" >
+// </div>
+
+//     <label for="TaskTitle" class="form-label">Task Title</label>
+//     <input type="text" class="form-control" name="TaskTitle" id="TaskTitle" placeholder="Web Development">
+//     <label for="TaskType" class="form-label">Task Type</label>
+//     <input type="text" class="form-control" id="TaskType" placeholder="Practice">
+//     <label for="TaskDescription" class="form-label">Description</label>
+//     <textarea class="form-control" id="TaskDescription" placeholder="This is DOM manipulation class" cols="10" rows="3"></textarea>
+// </div>
+// <div class="modal-footer">
+//     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+//     <input type="submit" class="btn btn-primary" value="Save changes">
+// </div>
+// </form>
