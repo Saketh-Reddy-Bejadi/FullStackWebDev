@@ -12,22 +12,6 @@
 <body  onload=loadCardData()>
     <nav class="navbar shadow navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <!-- <a class="navbar-brand fw-bold text-primary" href="#">TaskChecker</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li class="nav-item">
-                <a class="navbar-brand fw-bold text-primary" href="#">TaskChecker</a>
-                </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                <i class="fa-solid fa-plus"></i>
-                Add item</button>
-            </form>
-          </div> -->
           <div>
             <a class="navbar-brand me-0" href="#">
               <img class="mb-2"  src="to-do-list.png" alt="logo" width="30" height="24">
@@ -37,13 +21,10 @@
           <form class="d-flex" role="search">
             <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               <i class="fa-solid fa-plus"></i>
-              Add item</button>
+              Add Item</button>
           </form>
-          
-
         </div>
       </nav>
-
 
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -57,7 +38,7 @@
         <div class="modal-body">
           <div class="mb-3">
             <label for="ImgURL" class="form-label" >Image URL(for no image type NA)</label>
-            <input type="url" class="form-control"aria-describedby="Task Title" id="ImgURL" placeholder="http://image.com/image.jpg" required>
+            <input type="image" class="form-control"aria-describedby="Task Title" id="ImgURL" placeholder="http://image.com/image.jpg" required>
             <label for="TaskTitle" class="form-label">Task Title</label>
             <input type="text" class="form-control" aria-describedby="Task Title" id="TaskTitle" placeholder="Web Development" required>
             <label for="TaskDescription" class="form-label">Description</label>
@@ -66,7 +47,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <input type="submit" class="btn btn-primary" onclick="saveChanges()" value="Save changes">
+        <input type="submit" class="btn btn-primary" onclick="saveChanges()" value="Add Item">
       </div>
      </form>
     </div>
